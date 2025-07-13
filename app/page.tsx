@@ -13,6 +13,7 @@ export default async function Page() {
   /**
    * 1. getApi() を使ってAPIを呼び出してみよう
    * 5. エンドポイントのidやドメインを変更して意図的にエラーを発生させてみよう
+   * 8. 猫画像取得専用API呼び出し関数 lib/api/logics/getApiCatImage.ts を作成してみよう
    */
 
   /**
