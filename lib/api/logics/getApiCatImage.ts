@@ -7,14 +7,7 @@ import { getApi } from '@/lib/api/logics/getApi';
 
 /**
  * 猫画像取得API
+ * 8. 猫画像取得専用API呼び出し関数 lib/api/logics/getApiCatImage.ts を作成してみよう
  */
 export const getApiCatImage = async ({ id }: { id: string }) => {
-  const requestParams = {
-    slugs: { [CAT_API_SLUGS.ID]: id },
-  };
-  const response = await getApi<ApiCatImageRequestParams, ApiCatImageResponse>(
-    API_ENDPOINT.CAT_IMAGE,
-    requestParams
-  );
-  return response;
 };

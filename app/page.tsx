@@ -26,6 +26,7 @@ export default async function Page() {
 
   /**
    * 9. Pokémon API を使ってポケモンの画像をエラーハンドリングしつつ表示するセクションを追加してみよう
+   * 10. ポケモン取得専用API呼び出し関数 lib/api/logics/getApiPokemonPokemon.ts を作成してみよう
    */
 
   return (
