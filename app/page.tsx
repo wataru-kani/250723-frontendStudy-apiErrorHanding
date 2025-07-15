@@ -34,7 +34,7 @@ export default async function Page() {
    */
   const isCatApiError = catResponse.status === API_STATUS.API_ERROR;
   const catErrorMessage =
-    isCatApiError && catResponse?.data?.message ? catResponse.data.message : '';
+    isCatApiError && catResponse.data?.message ? catResponse.data.message : '';
 
   /**
    * 9. Pokémon API を使ってポケモンの画像をエラーハンドリングしつつ表示するセクションを追加してみよう
