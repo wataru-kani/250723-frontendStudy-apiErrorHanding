@@ -122,9 +122,9 @@ export const getApi = async <
   }
 
   /**
-   * 4. dataがあって200以外の場合：APIエラー
+   * 4. dataがあって200系以外の場合：APIエラー
    */
-  if (httpStatusCode !== HTTP_STATUS_CODE.OK) {
+  if (!response.ok) {
     return {
       status: API_STATUS.API_ERROR,
       httpStatusCode,
